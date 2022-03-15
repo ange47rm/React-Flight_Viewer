@@ -1,0 +1,64 @@
+@media only screen and (max-width: 480px) {
+    .flight-details {
+      background-color: white;
+      margin: 10px;
+    }
+
+    .select-button {
+        background-color: rgb(7, 206, 206);
+        color: white;
+        border-radius: 5px;
+        border:white;
+        padding: 5px 20px 5px 20px;
+        font-weight: bold;
+    }
+
+    .flight-price-agent {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flight-time-place {
+        margin: 10px;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .price {
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .flight {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .top-row{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bottom-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .top-row-col2 {
+        padding-left: 140px;
+    }
+
+}
+
+
